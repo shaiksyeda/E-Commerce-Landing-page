@@ -1,0 +1,89 @@
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+/* Home Section */
+.home-section {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: #1a1a1a;
+}
+
+/* Features Section */
+.features-section {
+  background-color: #f0f4f8;
+}
+
+/* Pricing Section */
+.pricing-section {
+  background: linear-gradient(to right, #ffe259, #ffa751);
+  color: #1a1a1a;
+}
+
+/* Inside Box Section */
+.inside-box-section {
+  background-color: #e3f2fd;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #f8f9fa;
+}
+
+/* Feature boxes */
+.feature-box {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+
+/* Feature colors */
+.feature-chip {
+  background-color: #e3f2fd; /* Light Blue */
+}
+
+.feature-display {
+  background-color: #e8f5e9; /* Light Green */
+}
+
+.feature-battery {
+  background-color: #fff3e0; /* Light Orange */
+}
+
+.feature-storage {
+  background-color: #fce4ec; /* Light Pink */
+}
+
+/* Contact form */
+.contact-section input,
+.contact-section textarea {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Button override */
+.btn-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #ec971f;
+}
+
+/* Responsive image */
+img {
+  max-width: 100%;
+  height: auto;
+}
